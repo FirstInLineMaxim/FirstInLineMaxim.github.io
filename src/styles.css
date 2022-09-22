@@ -117,7 +117,7 @@ header nav {
 .herosection {
   animation: heroIn 8s;
   height: 100vh;
-  background: url(/src/min%20images/Hero_section.avif) no-repeat center center;
+  background: url(/src/min%20images/background.webp) no-repeat center center;
   justify-content: center;
   background-size: cover;
   flex-direction: column;
@@ -125,6 +125,40 @@ header nav {
   align-items: center;
   display: flex;
   width: 100%;
+}
+
+.herosection h1{
+  animation: textIn 3s infinite;
+  text-align: center;
+  font-family: Monad;
+  font-size: 5rem;
+  color: rgba(255, 0, 0, 0.372);
+  text-shadow:
+  0 0 7px #ff6964,
+  0 0 10px #ff6964,
+  0 0 21px #ff6964,
+  0 0 42px #ff6964,
+  0 0 82px #ff6964,
+  0 0 92px #ff6964,
+  0 0 102px #ff6964,
+  0 0 151px #ff6964;
+}
+
+@keyframes textIn {
+  0% {
+    color: rgb(255, 108, 108);
+    opacity: 1;
+  }
+
+  50% {opacity: 0.6;
+        color: #fff;}
+
+  100% {
+    opacity: 1;
+  }
+}
+.herosection em{
+  text-decoration: underline;
 }
 
 @keyframes heroIn {
@@ -136,6 +170,8 @@ header nav {
     opacity: 1;
   }
 }
+
+
 
 .down {
   text-align: center;
