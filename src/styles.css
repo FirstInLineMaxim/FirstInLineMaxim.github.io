@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Neonderthaw&display=swap');
 header{
   position: sticky;
   top: 0;
@@ -269,7 +268,7 @@ footer nav{
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
+    /* position: relative; */
     display: inline-block;
      box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
