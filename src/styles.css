@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Neonderthaw&display=swap');
-
+@import url(/src/Monad.otf);
 header {
   position: sticky;
   top: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 footer {
-  font-family: Neonderthaw;
+  font-family: Monad;
   display: grid;
   background-color: rgb(0, 0, 0);
   grid-template-columns: 1fr 2fr 1fr;
@@ -42,7 +42,16 @@ header nav {
 }
 
 .TopNav ul {
-  font-family: Neonderthaw;
+  font-family: Monad;
+  text-shadow:
+  0 0 7px #ff6964,
+  0 0 10px #ff6964,
+  0 0 21px #ff6964,
+  0 0 42px #ff6964,
+  0 0 82px #ff6964,
+  0 0 92px #ff6964,
+  0 0 102px #ff6964,
+  0 0 151px #ff6964;
   display: flex;
   justify-content: space-evenly;
 
@@ -150,12 +159,20 @@ header nav {
 }
 
 .sidebar ul {
-
+  text-shadow:
+  0 0 7px #ff69646f,
+  0 0 10px #ff69646f,
+  0 0 21px #ff69646f,
+  0 0 42px #ff69646f,
+  0 0 82px #ff69646f,
+  0 0 92px #ff69646f,
+  0 0 102px #ff69646f,
+  0 0 151px #ff69646f;
+  opacity: 1;
   font-size: 30px;
   position: sticky;
   margin-left: 30%;
-  max-height: 100vh;
-  top: 5rem;
+  top: 8rem;
 }
 
 .sidebar li {
