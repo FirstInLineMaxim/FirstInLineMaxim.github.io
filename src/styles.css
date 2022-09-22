@@ -105,6 +105,7 @@ header nav {
 }
 
 .herosection {
+  animation: heroIn 8s;
   height: 100vh;
   background: url(/src/min%20images/Hero_section.avif) no-repeat center center;
   justify-content: center;
@@ -114,6 +115,16 @@ header nav {
   align-items: center;
   display: flex;
   width: 100%;
+}
+
+@keyframes heroIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .down {
