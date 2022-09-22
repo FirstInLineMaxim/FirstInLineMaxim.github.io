@@ -163,6 +163,7 @@ li::marker {
   max-height:50vh;
   overflow:hidden;
   align-items: center;
+  margin-right: 10%;
 }
 
 .maingrid img{
